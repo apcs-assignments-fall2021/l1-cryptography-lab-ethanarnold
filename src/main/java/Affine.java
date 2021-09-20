@@ -1,8 +1,13 @@
 import java.util.Scanner;
 
 public class Affine {
+
+    public static boolean isLetter(char ch) {
+        return(ch>='A' && ch<='Z' || ch>='a' && ch<='z');
+    }
+
     public static String encryptAffine(String message) {
-        // REPLACE THIS WITH YOUR CODE
+
         return message;
     }
 
